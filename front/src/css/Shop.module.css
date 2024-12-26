@@ -1,0 +1,95 @@
+.header{
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+.filtersCards{
+    margin-top: 60px;
+    display: flex;
+}
+
+.filters{
+    width: 20%;
+}
+
+.filters div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.cards{
+    width: 80%;
+}
+
+.btn{
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #d5001c;
+    color: white;
+    border: none;
+}
+
+.btnCard{
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.btnCard:hover{
+    background-color: #d5001c;
+    color: white;
+    border: none;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.card{
+    width: 413px;
+    padding: 32px;
+    border-radius: 10px;
+    background-color: rgb(250 248 248 / 77%);
+}
+
+.img{
+    width: 100%;
+}
+
+.img img{
+    width: 100%;
+}
+
+.model{
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.containerBtn{
+    margin-top: 10px;
+    display: flex;
+}
+
+.like{
+    margin-right: 10px;
+}

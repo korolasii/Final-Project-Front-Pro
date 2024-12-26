@@ -1,0 +1,105 @@
+.MenuSearchContainer {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(16px);
+    z-index: 1000;
+}
+
+.MenuSearchContainer.hidden {
+    transform: translateX(-100%);
+}
+
+.MenuSearchContainer.visible {
+    transform: translateX(0);
+}
+
+.MenuSearch {
+    z-index: 1031;
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    background-color: white; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.6s ease;
+}
+
+.MenuSearch.hidden {
+    transform: translateX(-100%);
+}
+
+.MenuSearch.visible {
+    transform: translateX(0);
+}
+
+.modelNav{
+    font-size: 24px;
+    line-height: 30px;
+    width: 100%;
+    padding: 0 7%;
+    font-weight: 400;
+    font-family: "Porsche Next", "Arial Narrow", sans-serif;
+    padding-top: 90px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #000; 
+    transform: rotate(-90deg); 
+}
+
+.category, .itemsMenuSearch {
+    width: 50%;
+    overflow-y: auto;
+}
+
+.itemsMenuSearch {
+    background-color: rgb(238, 239, 242);
+}
+
+.closeMenu{
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    left: 102%;
+    top: 25px;
+    border: 2px solid white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.closeMenu:hover{
+    border: 2px solid grey;
+}
+
+.itemsMenuSearch{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.menuItem{
+    width: 240px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

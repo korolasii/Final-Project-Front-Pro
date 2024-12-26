@@ -1,0 +1,15 @@
+.menuMain{
+    width: 68px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.menuIcon{
+    width: 24px;
+    height: 28px;
+}
+

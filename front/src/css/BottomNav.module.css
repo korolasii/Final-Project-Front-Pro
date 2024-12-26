@@ -1,0 +1,61 @@
+.container{
+    margin-left: 7.14286%;
+    margin-right: 7.14286%;
+    border-top: 1px solid #c8cacb;
+    padding-top: 20px;
+    
+}
+
+.bottomNav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.containerChild{
+    width: 33%;
+}
+
+.containerChild div{
+    margin-bottom: 16px;
+}
+
+.headerText{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.conf, .same, .search, .newsInUkraine, .testdrive, .questionToServer, .calc, .gatewayLink{
+    cursor: pointer;
+}
+
+.containerIcon{
+    width: 25%;
+    padding: 0 10px;
+    position: relative;
+    left: 75%;
+}
+
+.headerIcon{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #959899;
+    margin-bottom: 5px;
+}
+
+div a svg{
+    fill: white;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: #313639;
+    -webkit-transition: background-color .2s ease-in;
+    transition: background-color .2s ease-in;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+}

@@ -1,0 +1,41 @@
+.header{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.svgLogo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.userName{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.containerBtn{
+    display: flex;
+}
+
+.btn{
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #d5001c;
+    color: white;
+    border: none;
+}

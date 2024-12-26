@@ -1,0 +1,10 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+    width: 60%;
+    
+}

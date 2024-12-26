@@ -1,0 +1,44 @@
+.container {
+    background-color: #191f22;
+    padding: 30px 0;
+    margin-top: 30px;
+    width: 100%;
+    color: white;
+    padding-left: 7.14286%;
+    padding-right: 7.14286%;
+}
+
+.changeCountry{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #494e51;
+}
+
+.changeCountryHeader {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.changeCountry a{
+    padding: 5px 10px;
+    background-color: #313639;
+    color: #fff;
+    width: 105px;
+    height: 35px;
+}
+
+.infoContainer a{
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.infoContainer a:hover{
+    color: #d5001c;
+}
+
+.text{
+    margin-bottom: 16px;
+}
+
